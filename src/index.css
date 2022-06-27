@@ -1,13 +1,12 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Cabin+Sketch:wght@700&family=IBM+Plex+Serif:ital@1&family=Monoton&family=Montserrat+Alternates:wght@500&family=Montserrat:wght@300;400&family=Open+Sans:wght@300&family=Poppins:wght@400;500&family=Share+Tech+Mono&family=Special+Elite&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base{
+    html{
+        font-family: 'Poppins',
+        sans-serif;
+        background-color: #839AA8;
+    }
 }
