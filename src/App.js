@@ -61,7 +61,7 @@ const App = () => {
     }
 
     return (
-        <div className={`mx-auto max-w-screen-md mt-4 py-5 px-32 bg-gradient-to-br ${updatebackground()} h-fit shadow-[-20px_20px_30px_0px_rgba(0,0,0,1)]`}>
+        <div className={`mx-auto max-w-screen-sm mt-2 py-5 px-20 bg-gradient-to-br ${updatebackground()} h-fit shadow-[-20px_20px_30px_0px_rgba(0,0,0,1)]`}>
             <Header setQuery={setQuery} />
             <Inputs setQuery={setQuery} setUnits={setUnits} units={units} />
             {weather && (

@@ -25,9 +25,9 @@ const Header = ({ setQuery }) => {
     ]
 
     return (
-        <div className="flex items-center justify-between my-6">
+        <div className="flex items-center justify-between my-2">
             {cities.map((c) => (
-                <button key={c.id} className="text-white text-lg font-medium hover:scale-110"
+                <button key={c.id} className="text-white text-sm font-medium hover:scale-110"
                     onClick={() => setQuery({ q: c.title })}><h1>{c.title}</h1></button>
             ))}
         </div>
